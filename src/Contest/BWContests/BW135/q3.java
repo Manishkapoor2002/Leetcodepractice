@@ -9,7 +9,6 @@ public class q3 {
 
     public static void main(String[] args) {
         System.out.println(minChanges(new int[]{0,11,8,9,9,4,10,8,5,7,0,2,11,12,6,5},12));
-
     }
 
     public static int minChanges(int[] nums, int k) {
@@ -17,7 +16,7 @@ public class q3 {
         HashMap<Integer,Integer> map = new HashMap<>();
        for (int i = 0;i<n/2;i++){
            int diff = Math.abs(nums[i] - nums[n-i-1]);
-           map
+
        }
 
 

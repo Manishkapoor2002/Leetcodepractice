@@ -29,7 +29,7 @@ public class q2751 {
                     boolean currLive = true;
 
                     while (!s.isEmpty() && s.peek().dir == 'R') {
-                        int sval = s.peek().health;
+                       int sval = s.peek().health;
 
                         if (cval > sval) {
                             s.pop();
